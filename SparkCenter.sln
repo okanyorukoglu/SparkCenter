@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98FC5096-7C82-4E31-A86E-5E39A69500B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C06314BB-0F1E-48C3-8323-3867A755FCBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBusRabbitMQ", "src\Common\EventBusRabbitMQ\EventBusRabbitMQ.csproj", "{EE32A4BE-A9A6-4377-ADDB-A1A47356F372}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{8D37853D-E862-4459-B334-4FABBB4F9D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "src\Catalog\Catalog.API\Catalog.API.csproj", "{835216BA-B35E-4989-A68B-23EC24851139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE32A4BE-A9A6-4377-ADDB-A1A47356F372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE32A4BE-A9A6-4377-ADDB-A1A47356F372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE32A4BE-A9A6-4377-ADDB-A1A47356F372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE32A4BE-A9A6-4377-ADDB-A1A47356F372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835216BA-B35E-4989-A68B-23EC24851139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835216BA-B35E-4989-A68B-23EC24851139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835216BA-B35E-4989-A68B-23EC24851139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835216BA-B35E-4989-A68B-23EC24851139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C06314BB-0F1E-48C3-8323-3867A755FCBD} = {98FC5096-7C82-4E31-A86E-5E39A69500B5}
+		{EE32A4BE-A9A6-4377-ADDB-A1A47356F372} = {C06314BB-0F1E-48C3-8323-3867A755FCBD}
+		{8D37853D-E862-4459-B334-4FABBB4F9D33} = {98FC5096-7C82-4E31-A86E-5E39A69500B5}
+		{835216BA-B35E-4989-A68B-23EC24851139} = {8D37853D-E862-4459-B334-4FABBB4F9D33}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90D73BBE-937B-4694-B2B8-2D20D431C171}
+	EndGlobalSection
+EndGlobal
